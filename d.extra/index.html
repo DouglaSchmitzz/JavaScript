@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Nacionalidade</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+
+        }
+    </style>
+</head>
+<header>
+    <h1>Qual sua nacionalidade?</h1>
+    <div>
+        <p>Em que pais voce nasceu?</p>
+        <input type="text" name="txtpais" id="txtpais">
+        <input type="button" value="Enviar" onclick="Conferir()">
+    </div>
+</header>
+<body>
+ <script>
+    function Conferir () {
+    let pais = "Brasil";
+    console.log(`vivendo em ${pais}`);
+    if (pais != "Brasil") {
+    console.log("Você é estrangeiro");
+    } else {
+    console.log("Você é Brasileiro");
+ }
+ }
+ </script>
+</body>
+</html>
