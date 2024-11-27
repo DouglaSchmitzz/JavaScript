@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background-color: #1d2d45;
-  font: normal 15pt Arial;
+  font-family: "Montserrat";
+  font: normal 15pt;
 }
 
 header {
@@ -12,6 +15,7 @@ header {
 
 h1 {
   color: white;
+  font-family: "Montserrat";
 }
 
 section {
